@@ -9,14 +9,14 @@ const Page = () => {
       <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
         <WobbleCard
           containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-950 min-h-[500px] lg:min-h-[300px]"
-          className=""
+          
         >
           <div className="m-14 max-w">
             <h2 className="md:text-5xl lg:text-4xl font-semibold tracking-[-0.015em] text-neutral-200">
               Welcome to my portfolio!
             </h2>
             <p className="mt-4 text-left text-lg text-neutral-300">
-              I'm Tavethiya Sanket, a passionate Frontend Developer with 6
+              I am Tavethiya Sanket, a passionate Frontend Developer with 6
               months of hands-on experience in creating visually appealing and
               user-friendly web applications.
             </p>
@@ -56,8 +56,8 @@ const Page = () => {
               About Me
             </h2>
             <p className="mt-4 text-left text-lg text-neutral-300">
-              I specialize in HTML, CSS, and JavaScript, and I'm proficient in
-              modern frontend frameworks such as React js and Next.js. My
+              I specialize in HTML, CSS, and JavaScript, and I am proficient in
+              modern frontend frameworks such as React js and Next-js, My
               journey in frontend development has been driven by a desire to
               transform creative ideas into seamless digital experiences. I have
               a strong foundation in building responsive and interactive
