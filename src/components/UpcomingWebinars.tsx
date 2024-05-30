@@ -69,7 +69,7 @@ const UpcomingWebinars = () => {
                 ))}/>
             </div>
             <div className='mt-10 text-center'>
-                <Link className="px-4 py-2 rounded border bg-neutral-400 text-neutral-700 hover:bg-gray-200 transition duration-200" href={"/"}>View All Webinars</Link>
+                <Link className="px-4 py-2 rounded border text-neutral-700 bg-white hover:bg-neutral-400 transition duration-200" href={"/"}>View All Webinars</Link>
             </div>
         </div>
     </div>
