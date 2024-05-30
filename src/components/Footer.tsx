@@ -80,7 +80,7 @@ function Footer() {
           <p>Phone: (+91) 7226833420</p>
         </div>
         </div>
-        <p className="text-center text-xl">Demo Website From My Site</p>
+        <p className="text-center mt-2 text-xl">Demo Website From My Site</p>
         <p className="text-center text-xs pt-4">© 2024 Music School. All rights reserved.</p>
     </footer>
   )

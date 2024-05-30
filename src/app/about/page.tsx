@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <div className="container p-2 bg-black">
+    <div className="container mx-auto p-2 bg-black">
       <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
         <WobbleCard
           containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-950 min-h-[500px] lg:min-h-[300px]"
@@ -30,12 +30,12 @@ const Page = () => {
             className="max-w-xs mx-auto h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="img"
           />
-          <p className="mt-4 max-w-[26rem] text-left text-2xl font-bold text-neutral-300">
-            <cite className="pe-3 font-medium text-gray-900 dark:text-white">
+          <p className="mt-4 max-w-[26rem] text-2xl text-center font-bold text-neutral-300">
+            <cite className="pe-3 font-medium text-white">
               SANKET TAVETHIYA
             </cite>
             <br />
-            <cite className="ps-3 text-sm text-gray-500 dark:text-gray-400">
+            <cite className="text-sm text-gray-400">
               [Frontend developer]
             </cite>
           </p>
@@ -44,14 +44,14 @@ const Page = () => {
           <Link href="/resume.pdf">
             <p
               rel="noopener noreferrer"
-              className="px-4 py-2 rounded border hover:bg-neutral-400 text-neutral-700 bg-white transition duration-200"
+              className="px-4 m-1 py-2 rounded border hover:bg-neutral-400 text-neutral-700 bg-white transition duration-200"
             >
-              Download My Resume
+              Visit My Resume
             </p>
           </Link>
         </div>
-        <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-950 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
-          <div className="max-w">
+        <WobbleCard containerClassName="col-span-1 mb-5 lg:col-span-3 bg-blue-950 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+          <div className="m-10 max-w">
             <h2 className="md:text-5xl lg:text-4xl font-semibold tracking-[-0.015em] text-neutral-200">
               About Me
             </h2>

@@ -33,16 +33,16 @@ function FeatureCourses() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course: Course) => (
             <div key={course.id} className="flex justify-center">
-              <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm ">
+              <BackgroundGradient className="flex flex-col rounded-[22px] bg-zinc-900 overflow-hidden h-full max-w-sm ">
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                   <img src={course.image} alt={course.title} className="w-full h-auto mb-4" />
-                  <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                  <p className="text-lg sm:text-xl mt-4 mb-2 text-neutral-200">
                     {course.title}
                   </p>
-                  <p className="text-neural-600 text-sm dark:text-neutral-400 flex-grow">
+                  <p className="text-neural-600 text-sm text-neutral-400 flex-grow">
                     {course.description}
                   </p>
-                  <Link className="px-4 py-2 rounded-xl mt-2 bg-black dark:bg-white dark:text-black text-white text-xs font-bold" href={`/courses/${course.slug}`}>Learn More</Link>
+                  <Link className="px-4 py-2 rounded-xl mt-2 bg-white text-black text-xs font-bold" href={`/courses/${course.slug}`}>Learn More</Link>
 
                 </div>
               </BackgroundGradient>
