@@ -24,7 +24,7 @@ const Page = () => {
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 min-h-[300px]">
           <Image
-            src="/courses/skp.jpg"
+            src="/courses/sanket.jpg"
             height={1000}
             width={1000}
             className="max-w-xs mx-auto h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
